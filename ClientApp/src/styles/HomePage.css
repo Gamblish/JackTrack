@@ -1,0 +1,12 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}

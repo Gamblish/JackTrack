@@ -1,0 +1,85 @@
+.LoginPage {
+	background-color: #F5F5F7;
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+
+
+
+
+
+
+
+}
+
+.LogoSvg {
+	min-width: 51vw;
+	min-height: 51vh;
+
+}
+
+
+
+.AuthFormContainer {
+	min-width: 30%;
+	min-height: 30%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+
+}
+
+.AuthFormContainer_AuthForm {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.AuthFormContainer_AuthForm_Field {
+	border-radius: 10px;
+	width: 400px;
+	height: 50px;
+
+	border: 1px solid #DCE4FF;
+	font-size: 15px;
+	padding-left: 10px;
+	box-sizing: border-box;
+
+
+
+}
+
+.AuthFormContainer_AuthForm_Button {
+	border-radius: 10px;
+	padding: auto;
+	background-color: #546FFF;
+	color: white;
+	width: 324px;
+	height: 44px;
+	font-size: 14px;
+	font-weight: 400;
+
+
+
+}
+
+.AuthFormContainer::before {
+	display: inline-block;
+	content: "";
+	border: 1px solid #C2C6E8;
+
+
+	height: 55vh;
+	transform: translateX(-10ex);
+
+
+
+
+}
